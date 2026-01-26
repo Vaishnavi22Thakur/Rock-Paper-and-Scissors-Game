@@ -1,0 +1,74 @@
+body{
+    background-image:url("back.jpg");
+    background-size: cover;
+}
+#container{
+    border-radius:25px;
+    border:5px solid black;
+    text-align:center;
+    margin-top:25px;
+    font-family:poppins;
+    font-size:25px;
+    margin-left:25px;
+    margin-right:25px;
+}
+#score{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:100px;
+}
+#playerscore,#computerscore{
+    width:164px;
+    font-weight:bold;
+}
+#choices img:hover {
+    transform: scale(1.2);
+    box-shadow:
+        0 0 25px rgba(33, 150, 243, 0.7),
+        0 0 45px rgba(33, 150, 243, 0.4);
+}
+#fixscore{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:650px;
+}
+#display{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50px;
+    margin-top:50px;
+    border:5px solid black;
+    width:350px;
+    height:85px;
+    background-color:aqua;
+    font-weight:bold;
+}
+#uscore,#cscore{
+    font-weight:bold;
+    margin-top:-50px;
+}
+#choices{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:100px;
+    margin-top:75px;
+}
+#rock{
+    height:220px;
+    width:250px;
+    border-radius:130px;
+}
+#paper{
+    height:235px;
+    width:265px;
+    border-radius:150px;
+}
+#scissors{
+    height:225px;
+    width:250px;
+    border-radius:150px;
+}
